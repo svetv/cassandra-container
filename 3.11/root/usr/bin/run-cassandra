@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "Running env command"
+env
+echo "--------------------"
 set -o pipefail
 
 echo "Initializing..."
